@@ -1452,14 +1452,3 @@ Be ready to discuss trade-offs: delivery semantics, ordering vs parallelism, and
 
 ---
 
-## Final Preparation Tips
-
-1. **Master the core model**: partitions, offsets, consumer groups, replication, ISR, and how `acks` plus `min.insync.replicas` determine durability.
-2. **Be precise about ordering and delivery semantics**: where order is guaranteed, why duplicates occur, and how idempotent sinks and transactions fix them.
-3. **Practice the producer and consumer configs by heart**: `acks`, idempotence, `linger.ms`, `batch.size`, manual commits, `max.poll.interval.ms`, and `auto.offset.reset`.
-4. **Know failure scenarios**: rebalance storms, growing lag, poison pills, hot partitions, broker or disk failures, outages and recovery.
-5. **Understand the ecosystem**: Schema Registry compatibility, Connect with Debezium and sinks, Streams/Flink/Spark integration, and where each fits.
-6. **Know where Kafka sits today**: KRaft replaced ZooKeeper (4.0), cooperative and new group protocols, tiered storage, and managed services.
-7. **Tie answers to scenarios**: what broke, how you diagnosed it, what you changed, and the measured result.
-
-Good luck with your interview!
