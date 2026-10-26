@@ -1727,13 +1727,3 @@ Be ready to defend each decision and answer follow-ups about trade-offs.
 
 ---
 
-## Final Preparation Tips
-
-1. **Practice SQL alongside Python.** Most DE interviews include window functions, joins, and CTEs.
-2. **Know your projects deeply.** Volume, tools, failures, and fixes.
-3. **Be able to explain trade-offs**, not just definitions (batch vs streaming, pandas vs Spark, ETL vs ELT).
-4. **Code by hand** the common problems: dedupe, latest record per key, top-N per group, sessionization, merging intervals.
-5. **Learn the basics of one cloud** (AWS/Azure/GCP): storage, compute, orchestration, IAM.
-6. **Think in failure modes**: retries, idempotency, late data, schema drift, data quality.
-
-Good luck with your interview!
