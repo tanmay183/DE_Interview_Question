@@ -1545,13 +1545,4 @@ Be ready to defend each decision and discuss trade-offs.
 
 ---
 
-## Final Preparation Tips
 
-1. **Practice on real messy data.** Interviewers care more about cleaning, joining, and validating than about fancy models.
-2. **Know the "why" behind pandas choices**: vectorization, dtypes, memory, and when to leave pandas.
-3. **Master leakage and validation.** It's the most common scikit-learn interview theme.
-4. **Be fluent in metrics** and when each is appropriate, especially with imbalanced data.
-5. **Write from memory**: top-N per group, latest record per key, rolling features, sessionization, a full Pipeline with ColumnTransformer.
-6. **Connect everything to production**: idempotency, monitoring, drift, versioning, and data contracts.
-
-Good luck with your interview!
