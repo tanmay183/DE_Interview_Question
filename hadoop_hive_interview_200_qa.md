@@ -1637,13 +1637,4 @@ Be prepared for follow-ups on trade-offs: why ORC, why those partition columns, 
 
 ---
 
-## Final Preparation Tips
 
-1. **Know HDFS and YARN internals cold**: write/read path, NameNode metadata, HA, block placement, YARN lifecycle, and schedulers are asked in almost every interview.
-2. **Practice HiveQL by hand**: dedupe, latest record per key, top-N per group, running totals, sessionization, consecutive days, SCD2 `MERGE`.
-3. **Be ready to explain optimizations with the reason**: partition pruning, map join, bucketing, vectorization, CBO and statistics, skew handling, and small file compaction.
-4. **Tie every answer to a scenario**: say what broke, how you diagnosed it, what you changed, and what improved.
-5. **Understand where Hadoop sits today**: object storage, Spark, Iceberg/Delta, and managed cloud services. Interviewers often ask how you'd modernize a Hadoop/Hive workload.
-6. **Think in failure modes**: reruns, idempotency, late data, schema drift, data quality, and security.
-
-Good luck with your interview!
